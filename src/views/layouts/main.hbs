@@ -22,15 +22,15 @@
             <!-- Navigation -->
             <nav>
                 <div>
-                    <a href="#">Home</a>
-                    <a href="#">Dashboard</a>
-                    <a href="#">Search</a>
+                    <a href="/">Home</a>
+                    <a href="/dashboard">Dashboard</a>
+                    <a href="/search">Search</a>
                 </div>
 
                 <!-- Logged-in users -->
                 <div class="user">
-                    <a href="#">Add Stones</a>
-                    <a href="#">Logout</a>
+                    <a href="/add-stone">Add Stones</a>
+                    <a href="/auth/logout">Logout</a>
                 </div>
 
                 <!-- Guest users -->
@@ -40,11 +40,8 @@
                 </div>
             </nav>
         </header>
-
-        <main class="home">
-            {{{body}}}
-                    </main>
-
+        {{{body}}}
+        
         <footer>
             <p>@EarthTreasureVaul</p>
         </footer>
